@@ -1,4 +1,4 @@
-if(screen.width>=1680) {document.write("<style>body{zoom:130%;}</style>")};
+
 
 psnMore.addEventListener("click", function(){
     document.getElementById('PSNFeatures').style.display = "initial";

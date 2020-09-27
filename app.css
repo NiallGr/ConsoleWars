@@ -235,19 +235,39 @@ h4 {
       display: none;
     }
     #comparisonPvsX {
-        margin: 0% 2%;
+        margin: 0% 2%; 
+        height: 300px;
+    }
+    #title {
+      display: none;
     }
     .navbar-toggler {
         display: none;
     }
     body {
-         font-size: 0.8rem;
+         font-size: .7rem;
+         margin-top: 0px;
     }
-    #ConsoleVideoClips {
-         height: 80%;
+   
+    #image {
+     width: 100%;
     }
+
+   #border {
+       font-size: 0.7rem;
+   }
+   #border-right {
+       font-size: 0.7rem;
+   } 
+
 }
 
 #comparisonbtn {
     display: none;
+}
+
+@media (min-width: 1680px) {
+    body {
+        zoom: 130%;
+    }
 }

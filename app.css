@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+    font-family: "Nunito", sans-serif;
+}
+.textEdit h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.textEdit p {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 100;
+    line-height: 2;
+
+}
+#image {
+    /* background-color: rgb(0, 0, 0);
+    border-right: 1px solid blue; 
+    border-bottom: 1px solid blue; 
+    border-left: 1px solid forestgreen; 
+    border-top: 1px solid forestgreen; 
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-box-shadow : 0px 0px 10px white;
+       -moz-box-shadow: 0px 0px 10px white;
+            box-shadow: 0px 0px 10px white;  */
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+                 border-radius: 4px;
+         -webkit-box-shadow: 0px 0px 70px blue;
+            -moz-box-shadow: 0px 0px 70px blue;
+                 box-shadow:  /* some variation of blue for the shadow */
+                 0px -10px 15px -6px  rgba(38, 0, 255, 0.7), /* top - THE RED SHADOW */
+                 0px  5px  15px  0px  rgba(2, 248, 64, 0.74), /* bottom */
+                 5px  0px  15px  0px  rgba(38, 0, 255, 0.7), /* right */
+                -5px  0px  15px  0px  rgba(2, 248, 64, 0.74); /* left */
+}
+#PSNFeatures {
+    display: none;
+}
+#PSNDescription {
+    display: initial;
+}
+#psnMore {
+    display: initial;  
+}
+#psnLess {
+    display: none;  
+}
+
+#psnBackground {
+    background-color: rgb(20, 20, 194, 0.6);
+    border: 1px solid #4195fc; /* some kind of blue border */
+   
+    
+}
+#psnBackground:hover {
+    background-color: rgb(20, 20, 194, 0.8);
+    border: 1px solid #1aa3e2; /* some kind of blue border */
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 50px #1aa3e2;
+       -moz-box-shadow: 0px 0px 50px #1aa3e2;
+            box-shadow: 0px 0px 50px #1aa3e2; /* some variation of blue for the shadow */
+            transition: ease-in-out 800ms;
+    
+}
+
+#xboxBackground {
+    background-color: rgb(0, 117, 0, 0.6);
+    border: 1px solid #34c934
+    
+}
+#xboxBackground:hover {
+    background-color: rgb(0, 117, 0, 0.8);
+    border: 1px solid #34c934; /* some kind of blue border */
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 50px #34c934;
+       -moz-box-shadow: 0px 0px 50px #34c934;
+            box-shadow: 0px 0px 50px #34c934; /* some variation of blue for the shadow */
+            transition: ease-in-out 800ms;
+    
+}
+
+#xboxFeatures {
+    display: none;
+}
+#xboxDescription {
+    display: initial;
+}
+#xboxMore {
+    display: initial;  
+}
+#xboxLess {
+    display: none;  
+}
+
+.content {
+    margin-bottom: 100px;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link  {
+color: white;
+}
+
+#mainNavbar .nav-link:hover  {
+    color :#ea1c2c;
+    }
+    
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    
+}
+#headingGroup span {
+    color: blue;
+}
+#headingGroup .green {
+    color: green;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar.scrolled {
+    background: rgb(222,0,0,0.5);
+    transition : background 800ms;
+    
+}
+@media (max-width: 1100px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .textEdit p{
+        font-size: 1rem;
+    }
+}
+/* only for seeing divs */
+/* div {
+    border: white 2px solid;
+} */
+#border {
+    border-top: black 1px solid ;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+#border-right {
+    border-top: black 1px solid; 
+    border-right: black 1px solid ;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+h4 {
+    color: white;
+}
+#comparisonPvsX {
+    display: none;
+}
+#comparisonLess {
+    display: none;
+}

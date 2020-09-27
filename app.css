@@ -15,27 +15,17 @@ body {
 
 }
 #image {
-    /* background-color: rgb(0, 0, 0);
-    border-right: 1px solid blue; 
-    border-bottom: 1px solid blue; 
-    border-left: 1px solid forestgreen; 
-    border-top: 1px solid forestgreen; 
-    -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
-    -webkit-box-shadow : 0px 0px 10px white;
-       -moz-box-shadow: 0px 0px 10px white;
-            box-shadow: 0px 0px 10px white;  */
+
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
                  border-radius: 4px;
          -webkit-box-shadow: 0px 0px 70px blue;
             -moz-box-shadow: 0px 0px 70px blue;
-                 box-shadow:  /* some variation of blue for the shadow */
-                 0px -10px 15px -6px  rgba(38, 0, 255, 0.7), /* top - THE RED SHADOW */
-                 0px  5px  15px  0px  rgba(2, 248, 64, 0.74), /* bottom */
-                 5px  0px  15px  0px  rgba(38, 0, 255, 0.7), /* right */
-                -5px  0px  15px  0px  rgba(2, 248, 64, 0.74); /* left */
+                 box-shadow: 
+                 0px -10px 15px -6px  rgba(38, 0, 255, 0.7), 
+                 0px  5px  15px  0px  rgba(2, 248, 64, 0.74),
+                 5px  0px  15px  0px  rgba(38, 0, 255, 0.7),
+                -5px  0px  15px  0px  rgba(2, 248, 64, 0.74);
 }
 #PSNFeatures {
     display: none;
@@ -52,19 +42,19 @@ body {
 
 #psnBackground {
     background-color: rgb(20, 20, 194, 0.6);
-    border: 1px solid #4195fc; /* some kind of blue border */
+    border: 1px solid #4195fc;
    
     
 }
 #psnBackground:hover {
     background-color: rgb(20, 20, 194, 0.8);
-    border: 1px solid #1aa3e2; /* some kind of blue border */
+    border: 1px solid #1aa3e2; 
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
     -webkit-box-shadow: 0px 0px 50px #1aa3e2;
        -moz-box-shadow: 0px 0px 50px #1aa3e2;
-            box-shadow: 0px 0px 50px #1aa3e2; /* some variation of blue for the shadow */
+            box-shadow: 0px 0px 50px #1aa3e2; 
             transition: ease-in-out 800ms;
     
 }
@@ -76,13 +66,13 @@ body {
 }
 #xboxBackground:hover {
     background-color: rgb(0, 117, 0, 0.8);
-    border: 1px solid #34c934; /* some kind of blue border */
+    border: 1px solid #34c934; 
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
     -webkit-box-shadow: 0px 0px 50px #34c934;
        -moz-box-shadow: 0px 0px 50px #34c934;
-            box-shadow: 0px 0px 50px #34c934; /* some variation of blue for the shadow */
+            box-shadow: 0px 0px 50px #34c934;
             transition: ease-in-out 800ms;
     
 }

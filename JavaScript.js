@@ -33,7 +33,6 @@ comparisonbtn.addEventListener("click", function(){
     document.getElementById('comparisonPvsX').style.display = "initial";
     document.getElementById('comparisonLess').style.display = "initial";
     document.getElementById('comparisonbtn').style.display = "none";
-    document.getElementById('HiddenNav').style.display = "initial";
     document.getElementById('comp1').style.display = "none";
     
 })
@@ -43,11 +42,7 @@ comparisonLess.addEventListener("click", function(){
     document.getElementById('comparisonbtn').style.display = "initial";
 })
 
-document.getElementById("comparisonbtn").addEventListener("click", function() {
-    document.getElementById('comparisonPvsX').style.display = "initial";
-    document.getElementById('comparisonLess').style.display = "initial";
-    document.getElementById('comparison').style.display = "none";
-});
+
      
 
     

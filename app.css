@@ -1,32 +1,88 @@
 body {
     background-color: black;
     font-family: "Nunito", sans-serif;
+    margin: 0px;
 }
 .textEdit h2 {
     color: #ea1c2c;
     font-weight: 100;
     font-size: 2.5rem;
 }
+
 .textEdit p {
     color: white;
     font-size: 1.125rem;
     font-weight: 100;
     line-height: 2;
-
 }
-#image {
 
-            -webkit-border-radius: 4px;
+#image {
+           position: relative;
+           background: linear-gradient(0deg, #000,#161616);
+           width: 90%;
+           height: 100%;
+           -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+                border-radius: 4px;
+            box-shadow: 5px white;
+            /* -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
                  border-radius: 4px;
          -webkit-box-shadow: 0px 0px 70px blue;
             -moz-box-shadow: 0px 0px 70px blue;
                  box-shadow: 
-                 0px -10px 15px -6px  rgba(38, 0, 255, 0.7), 
+                 /* 0px -10px 15px -6px  rgba(38, 0, 255, 0.7), 
                  0px  5px  15px  0px  rgba(2, 248, 64, 0.74),
                  5px  0px  15px  0px  rgba(38, 0, 255, 0.7),
-                -5px  0px  15px  0px  rgba(2, 248, 64, 0.74);
+                -5px  0px  15px  0px  rgba(2, 248, 64, 0.74); */ 
 }
+#image:before,
+#image::after
+ {
+   box-shadow: 
+    0px -10px 15px -6px  rgba(38, 0, 255, 0.3), 
+                 0px  5px  10px  0px  rgba(2, 248, 64, 0.3),
+                 5px  0px  10px  0px  rgba(38, 0, 255, 0.3),
+                -5px  0px  10px  0px  rgba(2, 248, 64, 0.3);
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+         border-radius: 4px;
+     content: '';
+     position: absolute;
+     top: -2px;
+     left: -2px;
+     bottom: -2px;
+     height: 100%;
+     width: 100%;
+     background: linear-gradient(45deg,#32CD32,#228B22,#006400,#20B2AA,#1E90FF,#4169E1,#0000ff,	#0000CD,#00BFFF,#20B2AA,#228B22,#32CD32);
+    z-index: -1;
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: animate 60s linear infinite;
+}
+#image:after {
+   filter: blur(20px);
+}
+
+@keyframes animate
+{
+    0% 
+    {
+        background-position: 0 0;
+    }
+    50% 
+    {
+        background-position: 400% 0;
+    }
+    100% 
+    {
+        background-position: 0 0;
+    
+}
+}
+
 #PSNFeatures {
     display: none;
 }
@@ -42,10 +98,9 @@ body {
 
 #psnBackground {
     background-color: rgb(20, 20, 194, 0.6);
-    border: 1px solid #4195fc;
-   
-    
+    border: 1px solid #4195fc;   
 }
+
 #psnBackground:hover {
     background-color: rgb(20, 20, 194, 0.8);
     border: 1px solid #1aa3e2; 
@@ -55,8 +110,7 @@ body {
     -webkit-box-shadow: 0px 0px 50px #1aa3e2;
        -moz-box-shadow: 0px 0px 50px #1aa3e2;
             box-shadow: 0px 0px 50px #1aa3e2; 
-            transition: ease-in-out 800ms;
-    
+            transition: ease-in-out 800ms; 
 }
 
 #xboxBackground {
@@ -64,6 +118,7 @@ body {
     border: 1px solid #34c934
     
 }
+
 #xboxBackground:hover {
     background-color: rgb(0, 117, 0, 0.8);
     border: 1px solid #34c934; 
@@ -80,12 +135,15 @@ body {
 #xboxFeatures {
     display: none;
 }
+
 #xboxDescription {
     display: initial;
 }
+
 #xboxMore {
     display: initial;  
 }
+
 #xboxLess {
     display: none;  
 }
@@ -93,26 +151,28 @@ body {
 .content {
     margin-bottom: 100px;
 }
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
 }
+
 #mainNavbar .nav-link  {
 color: white;
 }
 
 #mainNavbar .nav-link:hover  {
     color :#ea1c2c;
-    }
-    
+} 
 
 #mainNavbar .navbar-brand {
-    color: #ea1c2c;
-    
+    color: #ea1c2c;  
 }
+
 #headingGroup span {
     color: blue;
 }
+
 #headingGroup .green {
     color: green;
 }
@@ -121,11 +181,13 @@ color: white;
     font-weight: 100;
     font-size: 4rem;
 }
+
 .navbar.scrolled {
     background: rgb(222,0,0,0.5);
     transition : background 800ms;
     
 }
+
 @media (max-width: 1100px) {
     #headingGroup h1 {
         font-weight: 100;
@@ -146,6 +208,7 @@ color: white;
     font-weight: bold;
     color: white;
 }
+
 #border-right {
     border-top: black 1px solid; 
     border-right: black 1px solid ;
@@ -154,12 +217,37 @@ color: white;
     font-weight: 600;
     color: white;
 }
+
 h4 {
     color: white;
 }
+
 #comparisonPvsX {
-    display: none;
+    display: initial;
 }
+
 #comparisonLess {
+    display: initial;
+}
+
+@media (max-width: 978px) {
+    .controllers {
+      display: none;
+    }
+    #comparisonPvsX {
+        margin: 0% 2%;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    body {
+         font-size: 0.8rem;
+    }
+    #ConsoleVideoClips {
+         height: 80%;
+    }
+}
+
+#comparisonbtn {
     display: none;
 }

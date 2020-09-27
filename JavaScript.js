@@ -1,4 +1,4 @@
-if(screen.width>=1680) {document.write("<style>body{zoom:130%;}</style>");}
+if(screen.width>=1680) {document.write("<style>body{zoom:130%;}</style>")};
 
 psnMore.addEventListener("click", function(){
     document.getElementById('PSNFeatures').style.display = "initial";
@@ -29,14 +29,25 @@ xboxLess.addEventListener("click", function(){
     document.getElementById('xboxLess').style.display = "none";
 });
 
-comparison.addEventListener("click", function(){
+comparisonbtn.addEventListener("click", function(){
     document.getElementById('comparisonPvsX').style.display = "initial";
     document.getElementById('comparisonLess').style.display = "initial";
-    document.getElementById('comparison').style.display = "none";
+    document.getElementById('comparisonbtn').style.display = "none";
+    document.getElementById('HiddenNav').style.display = "initial";
+    document.getElementById('comp1').style.display = "none";
     
 })
 comparisonLess.addEventListener("click", function(){
     document.getElementById('comparisonPvsX').style.display = "none";
     document.getElementById('comparisonLess').style.display = "none";
-    document.getElementById('comparison').style.display = "initial";
+    document.getElementById('comparisonbtn').style.display = "initial";
 })
+
+document.getElementById("comparisonbtn").addEventListener("click", function() {
+    document.getElementById('comparisonPvsX').style.display = "initial";
+    document.getElementById('comparisonLess').style.display = "initial";
+    document.getElementById('comparison').style.display = "none";
+});
+     
+
+    

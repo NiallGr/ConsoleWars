@@ -8,7 +8,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="app.css">
-
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script>
+    ScrollReveal({ reset: true });
+</script>
 
   <title>Console Wars</title>
 </head>
@@ -38,13 +42,13 @@
     <div class="row align-items-center content">
       <div class="col-lg-6">
         <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
-          <h1 class="display-2">CONSOLE <span class="green">/</span><span>/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
+          <h1 class="display-2">CONSOLE <span class="green">/</span><span class="blue">/</span> WARS</h1>
 
 
         </div>
@@ -146,23 +150,23 @@
         </div>
         <div class="row">
           <div id="border-right" class="col-3">CPU</div>
-          <div id="border" class="col-9"> 8x Cores @ 3.5 GHz (variable frequency)</div>
+          <div id="border1" class="col-9"> 8x Cores @ 3.5 GHz (variable frequency)</div>
           <div id="border-right" class="col-3">GPU</div>
-          <div id="border" class="col-9"> 10.3 TFLOPS, 36 CUs @ 2.33 GHz (variable frequency) </div>
+          <div id="border1" class="col-9"> 10.3 TFLOPS, 36 CUs @ 2.33 GHz (variable frequency) </div>
           <div id="border-right" class="col-3">Memory</div>
-          <div id="border" class="col-9"> 16 GB GDDR6 </div>
+          <div id="border1" class="col-9"> 16 GB GDDR6 </div>
           <div id="border-right" class="col-3">Memory Bandwith</div>
-          <div id="border" class="col-9"> 448 GB/s, </div>
+          <div id="border1" class="col-9"> 448 GB/s, </div>
           <div id="border-right" class="col-3">Internal Storage</div>
-          <div id="border" class="col-9"> 825 GB Custom NVME SSD </div>
+          <div id="border1" class="col-9"> 825 GB Custom NVME SSD </div>
           <div id="border-right" class="col-3">I.O Throughput</div>
-          <div id="border" class="col-9"> 5.5 GB/s (Raw), up to 8-9GB/s (Compressed), </div>
+          <div id="border1" class="col-9"> 5.5 GB/s (Raw), up to 8-9GB/s (Compressed), </div>
           <div id="border-right" class="col-3">Expandable Storage</div>
-          <div id="border" class="col-9"> NVMe SSD Slot </div>
+          <div id="border1" class="col-9"> NVMe SSD Slot </div>
           <div id="border-right" class="col-3">Optical Drive</div>
-          <div id="border" class="col-9"> USB External HDD Support </div>
+          <div id="border1" class="col-9"> USB External HDD Support </div>
           <div id="border-right" class="col-3">Performance Target</div>
-          <div id="border" class="col-9">4K @ 60 FPS, Up to 120 FPS and 8K </div>
+          <div id="border1" class="col-9">4K @ 60 FPS, Up to 120 FPS and 8K </div>
         </div>
       </div>
 
@@ -173,40 +177,47 @@
           </div>
         </div>
         <div class="row">
-          <div id="border-right" class="col-3">CPU</div>
-          <div id="border" class="col-9"> 8x Cores @ 3.8 GHz (3.66 GHz w/ SMT) Custom Zen 2 CPU </div>
-          <div id="border-right" class="col-3">GPU</div>
-          <div id="border" class="col-9"> 12 TFLOPS, 52 CUs @ 1.825 GHz Custom RDNA 2 GPU </div>
-          <div id="border-right" class="col-3">Memory</div>
-          <div id="border" class="col-9"> 16 GB GDDR6 w/ 320mb bus </div>
-          <div id="border-right" class="col-3">Memory Bandwith</div>
-          <div id="border" class="col-9"> 10GB @ 560 GB/s, 6GB @ 336 GB/s</div>
-          <div id="border-right" class="col-3">Internal Storage</div>
-          <div id="border" class="col-9"> 1 TB Custom NVME SSD </div>
-          <div id="border-right" class="col-3">I.O Throughput</div>
-          <div id="border" class="col-9"> 2.4 GB/s (Raw), 4.8 GB/s (Compressed, with custom hardware decompression
+          <div id="border-left" class="col-3">CPU</div>
+          <div id="border2" class="col-9"> 8x Cores @ 3.8 GHz (3.66 GHz w/ SMT) Custom Zen 2 CPU </div>
+          <div id="border-left" class="col-3">GPU</div>
+          <div id="border2" class="col-9"> 12 TFLOPS, 52 CUs @ 1.825 GHz Custom RDNA 2 GPU </div>
+          <div id="border-left" class="col-3">Memory</div>
+          <div id="border2" class="col-9"> 16 GB GDDR6 w/ 320mb bus </div>
+          <div id="border-left" class="col-3">Memory Bandwith</div>
+          <div id="border2" class="col-9"> 10GB @ 560 GB/s, 6GB @ 336 GB/s</div>
+          <div id="border-left" class="col-3">Internal Storage</div>
+          <div id="border2" class="col-9"> 1 TB Custom NVME SSD </div>
+          <div id="border-left" class="col-3">I.O Throughput</div>
+          <div id="border2" class="col-9"> 2.4 GB/s (Raw), 4.8 GB/s (Compressed, with custom hardware decompression
             block) </div>
-          <div id="border-right" class="col-3">Expandable Storage</div>
-          <div id="border" class="col-9"> 1 TB Expansion Card (matches internal storage exactly) </div>
-          <div id="border-right" class="col-3">Optical Drive</div>
-          <div id="border" class="col-9"> USB 3.2 External HDD Support</div>
-          <div id="border-right" class="col-3">Performance Target</div>
-          <div id="border" class="col-9"> 4K @ 60 FPS, Up to 120 FPS and 8K </div>
+          <div id="border-left" class="col-3">Expandable Storage</div>
+          <div id="border2" class="col-9"> 1 TB Expansion Card (matches internal storage exactly) </div>
+          <div id="border-left" class="col-3">Optical Drive</div>
+          <div id="border2" class="col-9"> USB 3.2 External HDD Support</div>
+          <div id="border-left" class="col-3">Performance Target</div>
+          <div id="border2" class="col-9"> 4K @ 60 FPS, Up to 120 FPS and 8K </div>
         </div>
       </div>
-      <div class="row mt-3 ">
+      <div class="row mt-3 mb-3 ">
         <div id="psControler" class="col-6  img-fluid order-2"><img src="imgs\playstation-5326719_1280.png" height="90%"
             width="30%" alt=""></div>
-        <div class="col-6 img-fluid order-4"> <img src="imgs\xbox-5162428_1280.png" height="90%" width="30%" alt="">
+        <div id="xboxController" class="col-6 img-fluid order-4"> <img src="imgs\xbox-5162428_1280.png" height="90%" width="30%" alt="">
         </div>
       </div>
     </div>
     </div>
     </div>
+    <footer id="sticky-footer" class="py-4  text-white-50">
+      <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0">
+        <a href="#Top" id="title" class="navbar-brand">CONSOLE WARS</a>
+      
+          <small class="mr-auto">Copyright &copy; NiallGr</small>
+        </div>
+      </nav>
+    </footer>
   </section>
-  <br>
 
-
+   
   <script text="javascript" src="JavaScript.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

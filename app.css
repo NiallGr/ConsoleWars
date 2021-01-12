@@ -269,6 +269,21 @@ h4 {
 
 @media (min-width: 1680px) {
     body {
-        zoom: 130%;
+        zoom: 110%;
+    }
+    #Top {
+        margin-top: 2%;
+      height: 850px;
+      font-size: 4.5rem;
+    }
+    #image {
+        height: 400px;
+    }
+    #PS5 {
+        height: 100%;
+    }
+    .content {
+        margin-bottom: 150px;
     }
 }
+

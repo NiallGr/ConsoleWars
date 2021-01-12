@@ -10,7 +10,7 @@ psnLess.addEventListener("click", function () {
     document.getElementById('PSNFeatures').style.display = "none";
     document.getElementById('psnMore').style.display = "initial";
     document.getElementById('psnLess').style.display = "none";
-    
+
 });
 
 xboxMore.addEventListener("click", function () {
@@ -40,9 +40,10 @@ comparisonLess.addEventListener("click", function () {
     document.getElementById('comparisonbtn').style.display = "initial";
 })
 // Scrool
-ScrollReveal({ reset: true });
+
 ScrollReveal().reveal('.display-2', { interval: 50 });
-ScrollReveal().reveal('.row', { interval: 70 });
+
 ScrollReveal().reveal('.green', { delay: 1300, interval: 100 });
 ScrollReveal().reveal('.blue', { delay: 1300, interval: 100 });
-
+ScrollReveal().reveal('#sticky-footer', { delay: 100 });
+ScrollReveal().reveal('.row', { delay: 100 });

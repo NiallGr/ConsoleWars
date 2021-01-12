@@ -46,4 +46,7 @@ ScrollReveal().reveal('.display-2', { interval: 50 });
 ScrollReveal().reveal('.green', { delay: 1300, interval: 100 });
 ScrollReveal().reveal('.blue', { delay: 1300, interval: 100 });
 ScrollReveal().reveal('#sticky-footer', { delay: 100 });
-ScrollReveal().reveal('.row', { delay: 100 });
+// ScrollReveal().reveal('.row', { delay: 100 });
+
+
+
